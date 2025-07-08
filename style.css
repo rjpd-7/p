@@ -1,0 +1,172 @@
+body {
+    background-image: radial-gradient(circle, #CFFFDC, #2E6F40);
+}
+
+/* CSS for the header */
+.topSect {
+    color: transparent;
+    height: 100px;
+}
+
+/* CSS Login and Signup buttons on top right */
+.loginSignup {
+    float: right;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-right: 35px;
+}
+body.loginPage .loginSignup li a{
+    background-color: #2E6F40;
+    color: #FFFFFF;
+}
+body.signUpPage .loginSignup li a{
+    background-color: #2E6F40;
+    color: #FFFFFF;
+}
+body.loginPage .loginSignup #signup a{
+    background-color: #FFFFFF;
+    color: #2E6F40;
+}
+body.signUpPage .loginSignup #login a{
+    background-color: #FFFFFF;
+    color: #2E6F40;
+}
+.loginSignup ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    border: 0.1px solid transparent;
+}
+
+.loginSignup li {
+    float: left;
+}
+.loginSignup li a{
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+.loginSignup a {
+    font-family: Anta;
+}
+.loginSignup ul a:hover {
+    background-color: #CFFFDC;
+    color: #000000;
+}
+.loginSignup ul a .activePage{
+    background-color: #2C5638;
+    color: #FFFFFF;
+}
+
+/* Login Form CSS */
+.container {
+    margin-inline: auto;
+    background-color: #FFFFFF;
+    height: 475px;
+    width: 406px;
+    border-radius: 30px;
+}
+#imgBG {
+    background-color: #2C5638;
+    border-radius: 30px 30px 0px 0px;
+    float: absolute;
+}
+#imgBG img {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.greetings h2{
+    text-align: center;
+    font-family: Mina;
+    color: #000000;
+}
+.greetings p {
+    text-align: center;
+    font-family: Abel;
+    margin-top: -20px;
+    color: #000000;
+}
+.inputBox {
+    margin: 5px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+}
+.inputBox input {
+    border-radius: 30px;
+    padding: 6px;
+    padding-left: 12px;
+    border: 0.3px solid #2C5638;
+    font-family: Abel;
+}
+.passwordBox {
+    display: flex;
+    flex-direction: row;
+}
+.passwordBox input {
+    width: 100%;
+    border-radius: 30px;
+    padding: 6px;
+    padding-left: 12px;
+    border: 0.3px solid #2C5638;
+    font-family: Abel;
+}
+.passwordBox i {
+    height: 100%;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.passwordBox i:hover {
+    cursor: pointer;
+}
+
+.inputBox #forgotpass a{
+    text-decoration: none;
+    font-size: smaller;
+    float: right;
+    margin-top: -10px;
+}
+.inputBox #forgotpass a:hover{
+    text-decoration: underline; 
+}
+.inputBox label {
+    font-family: Abel;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.loginBTN {
+    border-radius: 30px;
+    padding: 6px;
+    background-color: #2C5638;
+    color: #FFFFFF;
+    font-family: Abel;
+    font-size: 20px;
+    border: none;
+}
+.loginBTN:hover {
+    cursor: pointer;
+}
+#confirmBTN{
+    margin-top: 10px;
+}
+#signuplbl {
+    text-align: center;
+    margin-top: 10px;
+}
+#signuplbl a {
+    text-decoration: none;
+    color: #2C5638;
+    font-family: Abel;
+}
+#signuplbl a:hover {
+    border-radius: 10px;
+    background-color: #2C5638;
+    color: #CFFFDC;
+    padding: 5px;
+}
